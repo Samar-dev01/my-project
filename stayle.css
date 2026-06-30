@@ -1,0 +1,57 @@
+.sarlovha{
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    margin-right: 10px;
+    border: solid #6C63FF;
+    border-radius: 5px;
+    width: 400px;
+    padding: 5px;
+}
+.button{
+    background-color: #6C63FF;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    color: white;
+}
+.label{
+    position: relative;
+    right: 40px;
+    top: 5px;
+}
+.form-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+
+[type]:checked + span{
+    text-decoration: line-through;
+}
+
+
+
+.item-1{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #6C63FF;
+    
+}
+.item-2{
+    border: none;
+}
+.form-2 svg{
+    display: none;
+}
+.item-1:hover svg{
+    display: inline-block;
+}
